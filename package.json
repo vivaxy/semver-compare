@@ -1,6 +1,6 @@
 {
   "name": "@vivaxy/semver-compare",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "↔️Compare semver according to Semantic Versioning 2.0.0.",
   "keywords": [
     "@vivaxy/semver-compare",
