@@ -69,39 +69,39 @@ async function writeToReadme(content) {
   }
 
   const functions = {
-    // 'substack/semver-compare'() {
-    //   forEachTestCase(this.name, function(a, b) {
-    //     return substackSemverCompare(a, b);
-    //   });
-    // },
-    // 'leohihimax/node-version-compare'() {
-    //   forEachTestCase(this.name, function(a, b) {
-    //     return leohihimaxNodeVersionCompare(a, b);
-    //   });
-    // },
-    // 'zenithpolar/semver-compare'() {
+    // 'zenithpolar/semver-compare (Partial Support)'() {
     //   forEachTestCase(this.name, function(a, b) {
     //     return zenithpolarSemverCompare(a, b);
     //   });
     // },
-    'npm/node-semver'() {
-      forEachTestCase(this.name, function(a, b) {
-        return npmNodeSemver(a, b);
-      });
-    },
+    // 'substack/semver-compare (Partial Support)'() {
+    //   forEachTestCase(this.name, function(a, b) {
+    //     return substackSemverCompare(a, b);
+    //   });
+    // },
+    // 'leohihimax/node-version-compare (Partial Support)'() {
+    //   forEachTestCase(this.name, function(a, b) {
+    //     return leohihimaxNodeVersionCompare(a, b);
+    //   });
+    // },
     'hobbyquaker/semantic-compare'() {
       forEachTestCase(this.name, function(a, b) {
         return hobbyquakerSemanticCompare(a, b);
       });
     },
-    'omichelsen/compare-versions'() {
-      forEachTestCase(this.name, function(a, b) {
-        return omichelsenCompareVersions(a, b);
-      });
-    },
     'asamuzaK/semverParser'() {
       forEachTestCase(this.name, function(a, b) {
         return asamuzaKSemverParser(a, b);
+      });
+    },
+    'npm/node-semver'() {
+      forEachTestCase(this.name, function(a, b) {
+        return npmNodeSemver(a, b);
+      });
+    },
+    'omichelsen/compare-versions'() {
+      forEachTestCase(this.name, function(a, b) {
+        return omichelsenCompareVersions(a, b);
       });
     },
     'vivaxy/semver-compare'() {

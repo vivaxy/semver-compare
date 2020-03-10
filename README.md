@@ -21,27 +21,27 @@ console.log(semverCompare('1.0.0', '1.0.1')); // => -1
 
 # Benchmark
 
-npm/node-semver x 133,508 ops/sec ±1.24% (87 runs sampled)
+hobbyquaker/semantic-compare x 69,697 ops/sec ±5.74% (83 runs sampled)
 
-hobbyquaker/semantic-compare x 79,770 ops/sec ±1.05% (92 runs sampled)
+asamuzaK/semverParser x 136,009 ops/sec ±0.81% (90 runs sampled)
 
-omichelsen/compare-versions x 152,831 ops/sec ±1.44% (86 runs sampled)
+npm/node-semver x 136,487 ops/sec ±1.27% (88 runs sampled)
 
-asamuzaK/semverParser x 130,150 ops/sec ±2.42% (87 runs sampled)
+omichelsen/compare-versions x 140,054 ops/sec ±2.73% (76 runs sampled)
 
-vivaxy/semver-compare x 211,755 ops/sec ±1.13% (87 runs sampled)
+vivaxy/semver-compare x 197,073 ops/sec ±3.13% (85 runs sampled)
 
 Fastest is vivaxy/semver-compare
 
 # Related Projects
 
-- [npm/node-semver](https://github.com/npm/node-semver)
 - [zenithpolar/semver-compare](https://github.com/zenithpolar/semver-compare)
-- [hobbyquaker/semantic-compare](https://github.com/hobbyquaker/semantic-compare)
-- [omichelsen/compare-versions](https://github.com/omichelsen/compare-versions)
 - [substack/semver-compare](https://github.com/substack/semver-compare)
 - [leohihimax/node-version-compare](https://github.com/leohihimax/node-version-compare)
+- [hobbyquaker/semantic-compare](https://github.com/hobbyquaker/semantic-compare)
 - [asamuzaK/semverParser](https://github.com/asamuzaK/semverParser)
+- [npm/node-semver](https://github.com/npm/node-semver)
+- [omichelsen/compare-versions](https://github.com/omichelsen/compare-versions)
 
 #
 
