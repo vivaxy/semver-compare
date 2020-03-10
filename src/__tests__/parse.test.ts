@@ -44,4 +44,5 @@ test('parse invalid version', function() {
   expect(() => parseVersion('1.')).toThrow('Invalid version (1.)');
   expect(() => parseVersion('1++')).toThrow('Invalid version (1++)');
   expect(() => parseVersion('1-')).toThrow('Invalid version (1-)');
+  expect(() => parseVersion('?')).toThrow('Invalid version (?)');
 });

@@ -33,5 +33,4 @@ export default function semverCompare(a: string, b: string) {
       return -1;
     }
   }
-  return 0;
 }
