@@ -1,7 +1,7 @@
 {
   "name": "@vivaxy/semver-compare",
   "version": "0.0.1",
-  "description": "Created by create-n",
+  "description": "↔️Compare semver according to Semantic Versioning 2.0.0.",
   "keywords": [
     "@vivaxy/semver-compare",
     "semver-compare",
