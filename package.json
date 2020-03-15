@@ -8,10 +8,11 @@
     "vivaxy"
   ],
   "main": "lib/index.js",
+  "module": "es/index.js",
   "types": "lib/index.d.js",
   "scripts": {
     "benchmark": "node ./benchmark",
-    "build": "tsc",
+    "build": "tsc && tsc -p tsconfig-module.json",
     "test": "jest",
     "coverage": "jest --collect-coverage",
     "release:beta": "npm run test && npm run build && standard-version --prerelease beta && npm publish --tag beta --access=public && git push --follow-tags",
