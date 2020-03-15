@@ -2,7 +2,7 @@
  * @since 2020-03-10 07:34
  * @author vivaxy
  */
-import parseVersion from '../parse.js';
+import parseVersion from '../parse';
 
 test('parse stable version', function() {
   expect(parseVersion('1.0.0')).toStrictEqual([1, 0, 0, false, false]);
