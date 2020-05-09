@@ -85,7 +85,7 @@
     "@types/jest": "^25.1.4",
     "benchmark": "^2.1.4",
     "compare-versions": "^3.6.0",
-    "fs-extra": "^8.1.0",
+    "fs-extra": "^9.0.0",
     "husky": "^4.2.3",
     "jest": "^25.1.0",
     "lint-staged": "^10.0.8",
